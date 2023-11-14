@@ -1,0 +1,27 @@
+.bgImg {
+  background-image: url(../../public/images/fileBgImg.png);
+  width: 80vw;
+  height: 620px;
+  margin: 30px auto 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .bgImg {
+    width: auto;
+    height: 620px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .bgImg {
+      width: auto;
+      height: 620px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
