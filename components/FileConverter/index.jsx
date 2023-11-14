@@ -14,7 +14,11 @@ export const FileConverter = () => {
           <p className="text-[20px] md:text-[28px] font-bold font-sans">
             FileConverterOnline
           </p>
-          <Image className="h-[60px]  w-[180px] md:w-auto" src={chromeIcon} alt="icon" />
+          <Image
+            className="h-[60px]  w-[180px] md:w-auto"
+            src={chromeIcon}
+            alt="icon"
+          />
         </div>
       </nav>
       <div className="bgImg">
